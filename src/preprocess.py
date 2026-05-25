@@ -63,6 +63,7 @@ def preprocess(root_dir):
     print("Example pixel transformation (top-left corner, first 5 pixels):")
     print(f"  Before: {img_resized.numpy()[0, :5, 0].astype(int).tolist()}")
     print(f"  After : {[round(v, 3) for v in img_normalised.numpy()[0, :5, 0].tolist()]}")
+    return sample_path
 
 
 if __name__ == "__main__":
