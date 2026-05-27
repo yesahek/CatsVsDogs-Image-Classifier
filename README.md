@@ -268,6 +268,3 @@ All notebooks run on Google Colab with a T4 GPU (free):
 
 ---
 
-## License
-
-MIT — see [LICENSE](LICENSE)
